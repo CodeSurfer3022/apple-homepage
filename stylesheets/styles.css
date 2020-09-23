@@ -6,6 +6,8 @@ body {
     color: white;
     min-width: 900px;
     width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 footer {
@@ -23,6 +25,34 @@ section {
     grid-template-rows: 1fr 3fr;
 }
 
+.verses {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h1 {
+    line-height: 100px;
+    font-size: 60px;
+    text-align: center;
+    background-color: transparent;
+}
+
+h2 {
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.film {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.film:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* style the navbar*/
 nav {
     border-radius: 5px;
     background: linear-gradient(#666, #5e5e5e, #707070, #808080);
@@ -32,9 +62,6 @@ nav {
     justify-self: center;
 }
 
-.verses {
-    align-self: flex-start;
-}
 
 ul {
     height: 100%;
