@@ -20,6 +20,7 @@ footer {
 /* style the main content */
 section {
     background: url("../assets/images/main.jpg") bottom no-repeat;
+    object-fit: cover;
     height: 550px;
 }
 
