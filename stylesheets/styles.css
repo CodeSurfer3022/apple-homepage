@@ -3,7 +3,6 @@
 }
 
 body {
-    color: white;
     min-width: 950px;
     width: 100%;
     font-family: Helvetica, sans-serif;
@@ -13,11 +12,11 @@ body {
 footer {
     min-width: 950px;
     height: 100px;
-    background: pink;
 }
 
 /* style the main content */
 section {
+    color: white;
     background: url("../assets/images/main.jpg") bottom no-repeat;
     object-fit: cover;
     height: 550px;
@@ -63,14 +62,14 @@ nav {
 }
 
 
-ul {
+nav ul {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-li:first-child {
+nav li:first-child {
     border: none;
 }
 
