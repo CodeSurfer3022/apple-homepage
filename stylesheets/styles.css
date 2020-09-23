@@ -4,15 +4,15 @@
 
 body {
     color: white;
-    min-width: 900px;
+    min-width: 950px;
     width: 100%;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
 }
 
 footer {
-
-    height: 50px;
+    min-width: 950px;
+    height: 100px;
     background: pink;
 }
 
@@ -83,4 +83,14 @@ li {
     justify-content: center;
 }
 
+/* style footer class */
+.footer {
+    height: 200px;
+    display: flex;
+}
 
+img {
+    display: block;
+    max-width: 25%;
+    height: auto;
+}
