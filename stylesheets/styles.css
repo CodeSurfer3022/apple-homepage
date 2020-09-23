@@ -2,18 +2,14 @@
     box-sizing: border-box;
 }
 
-html {
-    width: 100vw;
-    height: 100vh;
-}
-
 body {
-    width: 100%;
-    height: 100%;
     color: white;
+    min-width: 900px;
+    width: 100%;
 }
 
 footer {
+
     height: 50px;
     background: pink;
 }
@@ -23,15 +19,21 @@ section {
     background: url("../assets/images/main.jpg") bottom no-repeat;
     object-fit: cover;
     height: 550px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
 }
 
 nav {
-    border: 1px solid black;
-    border-radius: 2px;
-    background: slategray;
-    width: 800px;
-    height: 50px;
-    margin: 0 auto;
+    border-radius: 5px;
+    background: linear-gradient(#666, #5e5e5e, #707070, #808080);
+    width: 900px;
+    height: 40px;
+    align-self: end;
+    justify-self: center;
+}
+
+.verses {
+    align-self: flex-start;
 }
 
 ul {
@@ -41,8 +43,12 @@ ul {
     justify-content: space-around;
 }
 
+li:first-child {
+    border: none;
+}
+
 li {
-    border: 1px solid black;
+    border-left: 1px solid black;
     height: 100%;
     flex: 1;
     display: flex;
