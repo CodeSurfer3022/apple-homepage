@@ -9,11 +9,6 @@ body {
     font-weight: 100;
 }
 
-footer {
-    min-width: 950px;
-    height: 100px;
-}
-
 /* style the main content */
 section {
     color: white;
@@ -73,7 +68,7 @@ nav li:first-child {
     border: none;
 }
 
-li {
+nav li {
     border-left: 1px solid black;
     height: 100%;
     flex: 1;
@@ -92,4 +87,51 @@ img {
     display: block;
     max-width: 25%;
     height: auto;
+}
+
+/* style footer element*/
+footer {
+    min-width: 950px;
+    height: 90px;
+    font-size: 10px;
+    color: #6e6e6e;
+}
+
+#wrapper {
+    height: 100%;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 0 5px;
+    border-right: 1px solid #5e5e5e;
+}
+
+footer li {
+    color: #08c;
+}
+
+li:last-child {
+    border: none;
+}
+
+#wrapper  div{
+    clear: both;
+    position: relative;
+    top: 20px;
+    display: flex;
 }
